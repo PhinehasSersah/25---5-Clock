@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    color: rgb(58, 66, 41)
+}
+.header nav ul {
+    /* display: inline-block; */
+    text-decoration: none;
+    list-style: none;
+}
+.header nav ul a {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(58, 66, 41);
+    text-decoration: none;
+    list-style: none;
+    margin: 2em;
+}
+.header nav ul a:hover {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+} 
+@media (max-width:480px){
+    .header nav ul a{
+        
+       margin : 5px;
+    }
+}

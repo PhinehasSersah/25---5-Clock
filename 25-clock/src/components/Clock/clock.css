@@ -1,0 +1,25 @@
+/* rgb(58, 66, 41) */
+
+
+.break h3, .session h3 , #timer-label {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+.break p, .session p,  #time-left {
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(58, 66, 41) ;
+    
+}
+.break button, .session button, .controls button {
+    height: 2.5em;
+    width: 10em;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: rgb(255,255,255);
+    background-color: rgb(58, 66, 41);
+}.break button:hover, .session button:hover, .controls button:hover {
+    cursor: pointer;
+    color: rgb(58, 66, 41);
+    background-color: rgb(255, 255, 255);
+}
